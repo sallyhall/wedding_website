@@ -140,8 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #qbootstrap-header {
-	// position: relative;
-	position: absolute;
+	position: fixed;
 	z-index: 99;
 	width: 100%;
 	opacity: 1;
@@ -197,8 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 		li {
 			a {
 				font-family: $font-primary;
-				color: rgba(255,255,255,.5);
-				// color: #dadada;
+				// color: rgba(255,255,255,.5);
+				color: #dadada;
 				position: relative;
 				span {
 					position: relative;
@@ -227,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 				}
 				&:hover {
 					// color: $brand-primary;
-					color: $brand-white;
+					color: #dadada;
 					// color: rgba(255,255,255,1);
 					span {
 						&:before {
@@ -246,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 				a {
 					background: transparent;
 					background: none;
-					color: $brand-white;
+					color: $brand-primary;
 					span {
 						&:before {
 							visibility: visible;

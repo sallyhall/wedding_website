@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0; }
 
 #qbootstrap-header {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   width: 100%;
   opacity: 1;
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0; }
   #qbootstrap-header #navbar li a {
     font-family: "Source Sans Pro", Arial, sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+    color: #dadada;
     position: relative; }
     #qbootstrap-header #navbar li a span {
       position: relative;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
         -o-transition: all 0.3s ease-in-out 0s;
         transition: all 0.3s ease-in-out 0s; }
     #qbootstrap-header #navbar li a:hover {
-      color: #fff; }
+      color: #dadada; }
       #qbootstrap-header #navbar li a:hover span:before {
         visibility: visible;
         -webkit-transform: scaleX(1);
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #fff; }
+    color: #ff7cbd; }
     #qbootstrap-header #navbar li.active a span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
