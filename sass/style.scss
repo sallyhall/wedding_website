@@ -419,6 +419,9 @@ h1, h2, h3, h4, h5, h6 {
 	@media screen and (max-width :$screen-sm) {
 		height: 700px;
 	}
+  p {
+    text-align: center;
+  }
 }
 .qbootstrap-overlay{
 	position: absolute !important;
@@ -431,8 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(0, 0, 0, .4);
 }
 
-.qbootstrap-cover,
-.video-hero{
+.qbootstrap-cover{
 	background-size: cover;
 	position: relative;
 	background-repeat: no-repeat;
@@ -1196,4 +1198,8 @@ h1, h2, h3, h4, h5, h6 {
   li{
     list-style: none;
   }
+}
+
+.wedding-info{
+  font-size: 48px;
 }

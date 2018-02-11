@@ -268,6 +268,9 @@ h1, h2, h3, h4, h5, h6 {
     .qbootstrap-cover,
     .qbootstrap-hero {
       height: 700px; } }
+  .qbootstrap-cover p,
+  .qbootstrap-hero p {
+    text-align: center; }
 
 .qbootstrap-overlay {
   position: absolute !important;
@@ -279,99 +282,76 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   background: rgba(0, 0, 0, 0.4); }
 
-.qbootstrap-cover,
-.video-hero {
+.qbootstrap-cover {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat; }
   @media screen and (max-width: 768px) {
-    .qbootstrap-cover,
-    .video-hero {
+    .qbootstrap-cover {
       heifght: inherit;
       padding: 3em 0; } }
-  .qbootstrap-cover .display-t,
-  .video-hero .display-t {
+  .qbootstrap-cover .display-t {
     display: table;
     height: 800px;
     width: 100%;
     position: relative;
     z-index: 2; }
     @media screen and (max-width: 768px) {
-      .qbootstrap-cover .display-t,
-      .video-hero .display-t {
+      .qbootstrap-cover .display-t {
         height: 600px; } }
-  .qbootstrap-cover .display-tc,
-  .video-hero .display-tc {
+  .qbootstrap-cover .display-tc {
     display: table-cell;
     vertical-align: middle; }
-    .qbootstrap-cover .display-tc .holder,
-    .video-hero .display-tc .holder {
+    .qbootstrap-cover .display-tc .holder {
       color: #fff;
       font-family: "Source Sans Pro", Arial, sans-serif;
       font-size: 18px;
       text-transform: uppercase;
       letter-spacing: 10px; }
-      .qbootstrap-cover .display-tc .holder span,
-      .video-hero .display-tc .holder span {
+      .qbootstrap-cover .display-tc .holder span {
         position: relative; }
-        .qbootstrap-cover .display-tc .holder span:before, .qbootstrap-cover .display-tc .holder span:after,
-        .video-hero .display-tc .holder span:before,
-        .video-hero .display-tc .holder span:after {
+        .qbootstrap-cover .display-tc .holder span:before, .qbootstrap-cover .display-tc .holder span:after {
           position: absolute;
           top: 49%;
           width: 100px;
           height: 2px;
           background: #fff;
           content: ''; }
-        .qbootstrap-cover .display-tc .holder span:before,
-        .video-hero .display-tc .holder span:before {
+        .qbootstrap-cover .display-tc .holder span:before {
           left: -110px; }
-        .qbootstrap-cover .display-tc .holder span:after,
-        .video-hero .display-tc .holder span:after {
+        .qbootstrap-cover .display-tc .holder span:after {
           right: -110px; }
       @media screen and (max-width: 768px) {
-        .qbootstrap-cover .display-tc .holder,
-        .video-hero .display-tc .holder {
+        .qbootstrap-cover .display-tc .holder {
           letter-spacing: 2px; }
-          .qbootstrap-cover .display-tc .holder span,
-          .video-hero .display-tc .holder span {
+          .qbootstrap-cover .display-tc .holder span {
             position: relative; }
-            .qbootstrap-cover .display-tc .holder span:before, .qbootstrap-cover .display-tc .holder span:after,
-            .video-hero .display-tc .holder span:before,
-            .video-hero .display-tc .holder span:after {
+            .qbootstrap-cover .display-tc .holder span:before, .qbootstrap-cover .display-tc .holder span:after {
               width: 50px;
               height: 2px; }
-            .qbootstrap-cover .display-tc .holder span:before,
-            .video-hero .display-tc .holder span:before {
+            .qbootstrap-cover .display-tc .holder span:before {
               left: -60px; }
-            .qbootstrap-cover .display-tc .holder span:after,
-            .video-hero .display-tc .holder span:after {
+            .qbootstrap-cover .display-tc .holder span:after {
               right: -60px; } }
-    .qbootstrap-cover .display-tc h2,
-    .video-hero .display-tc h2 {
+    .qbootstrap-cover .display-tc h2 {
       color: #fff;
       font-size: 80px;
       margin-bottom: 20px;
       font-weight: 300 !important; }
-      .qbootstrap-cover .display-tc h2 strong,
-      .video-hero .display-tc h2 strong {
+      .qbootstrap-cover .display-tc h2 strong {
         font-weight: 700; }
       @media screen and (max-width: 768px) {
-        .qbootstrap-cover .display-tc h2,
-        .video-hero .display-tc h2 {
+        .qbootstrap-cover .display-tc h2 {
           font-size: 60px; } }
-    .qbootstrap-cover .display-tc p,
-    .video-hero .display-tc p {
+    .qbootstrap-cover .display-tc p {
       color: #fff;
       font-weight: 400;
       font-size: 20px;
       letter-spacing: 10px; }
-    .qbootstrap-cover .display-tc .svg-sm .svg,
-    .video-hero .display-tc .svg-sm .svg {
+    .qbootstrap-cover .display-tc .svg-sm .svg {
       height: 180px;
       margin-bottom: 0; }
-    .qbootstrap-cover .display-tc .colored .svg,
-    .video-hero .display-tc .colored .svg {
+    .qbootstrap-cover .display-tc .colored .svg {
       fill: #fff; }
 
 #qbootstrap-slider-hero {
@@ -910,5 +890,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; }
   .registries li {
     list-style: none; }
+
+.wedding-info {
+  font-size: 48px; }
 
 /*# sourceMappingURL=style.css.map */
