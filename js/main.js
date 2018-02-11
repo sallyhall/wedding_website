@@ -16,21 +16,6 @@
 
 
 
-	// Carousel Feature Slide
-	var testimonialCarousel = function(){
-
-		var owl = $('.owl-carousel-fullwidth');
-		owl.owlCarousel({
-			animateOut: 'fadeOut',
-			items: 1,
-			loop: true,
-			margin: 0,
-			nav: false,
-			dots: true,
-			smartSpeed: 800,
-			autoHeight: false
-		});
-	};
 
 	var sliderMain = function() {
 
@@ -156,30 +141,6 @@
 	};
 
 
-	// Window Scroll
-	var windowScroll = function() {
-		var lastScrollTop = 0;
-
-		$(window).scroll(function(event){
-
-		   	var header = $('#qbootstrap-header'),
-				scrlTop = $(this).scrollTop();
-
-			if ( scrlTop > 500 && scrlTop <= 2000 ) {
-				header.addClass('navbar-fixed-top qbootstrap-animated slideInDown');
-			} else if ( scrlTop <= 500) {
-				if ( header.hasClass('navbar-fixed-top') ) {
-					header.addClass('navbar-fixed-top qbootstrap-animated slideOutUp');
-					setTimeout(function(){
-						header.removeClass('navbar-fixed-top qbootstrap-animated slideInDown slideOutUp');
-					}, 100 );
-				}
-			}
-
-		});
-	};
-
-
 
 	// Animations
 	var contentWayPoint = function() {
@@ -287,24 +248,16 @@
 		}, 1000);
 
 
-	var bgVideo = function() {
-		$('.player').mb_YTPlayer();
-	};
-
-
 	// Document on load.
 	$(function(){
 
 		burgerMenu();
-		testimonialCarousel();
 		sliderMain();
 		clickMenu();
 		parallax();
-		// windowScroll();
 		navigationSection();
 		contentWayPoint();
 		inlineSVG();
-		bgVideo();
 	});
 
 

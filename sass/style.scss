@@ -6,7 +6,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #ff7cbd !default;
+$brand-primary: #CD606E !default;
 
 
 $brand-white: #fff;
@@ -115,6 +115,10 @@ a {
 }
 p {
 	margin-bottom: 1.5em;
+}
+
+.big-pic{
+  width:100%
 }
 
 h1, h2, h3, h4, h5, h6 {
