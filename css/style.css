@@ -894,7 +894,11 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-info {
   font-size: 48px; }
 
-.address {
-  font-size: 36px; }
+.address a {
+  font-size: 36px;
+  color: #fff;
+  text-decoration: underline; }
+  .address a:hover, .address a:active, .address a:focus {
+    color: #CD606E; }
 
 /*# sourceMappingURL=style.css.map */
